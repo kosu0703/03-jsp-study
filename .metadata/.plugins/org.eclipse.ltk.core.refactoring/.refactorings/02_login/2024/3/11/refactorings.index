@@ -1,0 +1,40 @@
+1710203929830	Delete element
+1710203968322	Copy package
+1710203983911	Copy package
+1710203994425	Copy package
+1710204305424	Copy compilation unit
+1710204308544	Delete element
+1710204942391	Delete elements
+1710205478232	Copy compilation units
+1710205496965	Rename type 'CookieJoinCommand'
+1710205505368	Rename type 'CookieJoinOKCommand'
+1710205511382	Rename type 'CookieLoginCommand'
+1710205516803	Rename type 'CookieLoginOKCommand'
+1710205521760	Rename type 'CookieLogoutCommand'
+1710205527351	Rename type 'CookieProfileCommand'
+1710205531207	Rename type 'CookieProfileOKCommand'
+1710205535591	Rename type 'ProfileOKCommand'
+1710205716814	Copy elements
+1710205757352	Rename resource 'cookie_mapper.xml'
+1710205762741	Rename resource 'cookie_config.xml'
+1710205768782	Rename type 'CookieVO'
+1710205774001	Rename type 'CookieDBService'
+1710205780158	Rename type 'CookieDAO'
+1710206106090	Copy files
+1710212370165	Copy compilation unit
+1710213128165	Copy compilation unit
+1710215479442	Move 'cos.jar' to 'lib'
+1710296085640	Rename type 'Guest'
+1710296106912	Delete element
+1710296116727	Delete element
+1710296120369	Copy compilation unit
+1710296134294	Rename type 'MyController'
+1710296177647	Copy elements
+1710296193333	Rename type 'BasicDAO'
+1710296199281	Rename type 'BasicDBService'
+1710296203736	Rename type 'BasicVO'
+1710296213344	Rename resource 'basic_config.xml'
+1710296223449	Rename resource 'basic_mapper.xml'
+1710297418468	Copy files
+1710297424426	Delete elements
+1710384444411	Copy file

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--  
+<mapper namespace="메퍼이름">											1개 일때는 VO 또는 String, int 등 사용가능
+	<select id="외부에서 호출할때 사용할 id" resultType="결과 타입(VO 또는 int)" [parameterType="외부에서 들어오는 정보 타입"] >
+		실제 사용할 쿼리 SQL 							 **List<VO> 는 없다	  **2개 이상 있으면 VO 에 담아서 보내자
+	</select>															
+	<insert id="" parameterType=""></insert>
+	<update id="" parameterType=""></update>
+	<delete id="" parameterMap=""></delete>
+</mapper>
+-->
+<mapper namespace="guestbook">
+	<select id="list" resultType="com.ict.db.GuestVO">
+		select * from guestbook order by idx
+	</select>
+	<insert id="insert" parameterType="com.ict.db.GuestVO">
+		insert into guestbook(idx, name, subject, content, email, pwd, regdate)
+		 values(guestbook_seq.nextval, #{name}, #{subject}, #{content}, #{email}, #{pwd}, sysdate)
+	</insert>
+	<select id="detail" resultType="com.ict.db.GuestVO" parameterType="String">
+		select * from guestbook where idx = #{idx}
+	</select>
+	<delete id="delete" parameterType="String">
+		delete from guestbook where idx = #{idx}
+	</delete>
+	<update id="update" parameterType="com.ict.db.GuestVO">
+		update guestbook 
+		set name = #{name}, subject = #{subject}, email = #{email}, content = #{content} 
+		where idx = #{idx}
+	</update>
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
