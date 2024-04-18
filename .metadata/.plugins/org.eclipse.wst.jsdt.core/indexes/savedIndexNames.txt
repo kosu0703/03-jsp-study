@@ -1,8 +1,6 @@
-INDEX VERSION 1.4+D:\kosu0703\jspstudy\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-1504495589.index
-3721016695.index
-3946474306.index
-4209798988.index
-1491602037.index
-2186037759.index
-359938809.index
+INDEX VERSION 1.4+D:\kosu0703\04_jsp_study\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3644864602.index
+214490378.index
+2736257693.index
+2669249942.index
+2329128542.index
